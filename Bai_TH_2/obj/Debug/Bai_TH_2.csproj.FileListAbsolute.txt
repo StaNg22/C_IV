@@ -1,0 +1,7 @@
+D:\Bai_Hoc_Cua_Quyen\Thuc_Hanh_2\bin\Debug\Thuc_Hanh_2.exe.config
+D:\Bai_Hoc_Cua_Quyen\Thuc_Hanh_2\bin\Debug\Thuc_Hanh_2.exe
+D:\Bai_Hoc_Cua_Quyen\Thuc_Hanh_2\bin\Debug\Thuc_Hanh_2.pdb
+D:\Bai_Hoc_Cua_Quyen\Thuc_Hanh_2\obj\Debug\Bai_TH_2.csproj.AssemblyReference.cache
+D:\Bai_Hoc_Cua_Quyen\Thuc_Hanh_2\obj\Debug\Bai_TH_2.csproj.CoreCompileInputs.cache
+D:\Bai_Hoc_Cua_Quyen\Thuc_Hanh_2\obj\Debug\Thuc_Hanh_2.exe
+D:\Bai_Hoc_Cua_Quyen\Thuc_Hanh_2\obj\Debug\Thuc_Hanh_2.pdb

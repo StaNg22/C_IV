@@ -85,6 +85,7 @@ namespace CHUONG_I
         {
             Console.OutputEncoding = Encoding.UTF8;
             Console.WriteLine("TÍNH THỜI GIAN");
+            Console.WriteLine("Hello");
 
             Console.WriteLine("Nhập số giờ:");
             int h = int.Parse(Console.ReadLine());

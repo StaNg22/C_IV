@@ -11,9 +11,11 @@ namespace CHUONG_I
 {
     class Class_6
     {
-        Console.OutputEncoding = Encoding.UTF8;
+        
         static void Main()
         {
+            Console.OutputEncoding = Encoding.UTF8;
+                  
             // Khai Báo Biến
             double m = 0;//tiền đôla
             double a = 0;//tiền bảng Anh

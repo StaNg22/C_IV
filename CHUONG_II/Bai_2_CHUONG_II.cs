@@ -32,7 +32,7 @@ namespace CHUONG_I
             commission = totalSale * commissionRate;
 
             //Output
-            Console.WriteLine($"commission = {}");
+            Console.WriteLine($"commission = {commission}");
         }
     }
 }

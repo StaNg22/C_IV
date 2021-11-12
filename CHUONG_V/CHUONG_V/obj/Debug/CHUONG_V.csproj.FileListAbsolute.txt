@@ -1,8 +1,0 @@
-D:\Bai_Hoc_Cua_Quyen\KTLT1\CHUONG_V\CHUONG_V\bin\Debug\CHUONG_V.exe.config
-D:\Bai_Hoc_Cua_Quyen\KTLT1\CHUONG_V\CHUONG_V\bin\Debug\CHUONG_V.exe
-D:\Bai_Hoc_Cua_Quyen\KTLT1\CHUONG_V\CHUONG_V\bin\Debug\CHUONG_V.pdb
-D:\Bai_Hoc_Cua_Quyen\KTLT1\CHUONG_V\CHUONG_V\obj\Debug\CHUONG_V.csproj.AssemblyReference.cache
-D:\Bai_Hoc_Cua_Quyen\KTLT1\CHUONG_V\CHUONG_V\obj\Debug\CHUONG_V.csproj.CoreCompileInputs.cache
-D:\Bai_Hoc_Cua_Quyen\KTLT1\CHUONG_V\CHUONG_V\obj\Debug\CHUONG_V.exe
-D:\Bai_Hoc_Cua_Quyen\KTLT1\CHUONG_V\CHUONG_V\obj\Debug\CHUONG_V.pdb
-D:\Bai_Hoc_Cua_Quyen\KTLT1\CHUONG_V\CHUONG_V\obj\Debug\CHUONG_V.csproj.SuggestedBindingRedirects.cache

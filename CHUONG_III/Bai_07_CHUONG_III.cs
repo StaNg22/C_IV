@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -26,84 +26,37 @@ namespace CHUONG_III
             //input
             Console.Write("Nhập vào số giây: ");
             a = uint.Parse(Console.ReadLine());//nhập số giây từ bàn phím
+          
+                s = a % 60;//vd a=86399 => s=59 
+                p = (a / 60)%60;//vd a=86399 => p=59
+                h = a / 3600;// vd a=86399 => h=23
+                if (h < 10)//nếu h<10
+                {
+                    Console.Write($"Giờ được chuyển đổi là: 0{h}:");//vd h=1 thì in ra giờ được chuyển đổi là : 01:
+                }
+                else// ngược lại h>=10
+                {
+                    Console.Write($"Giờ được chuyển đổi là: {h}:");//vd h=11 thì in ra giờ được chuyển đổi là : 11:
+                }
+                if (p < 10)// nếu p<10
+                {
+                    Console.Write($"0{p}:");//in ra vd p=2 => 02:
+                }
+                else//ngược lại p>=10
+                {
+                    Console.Write($"{p}:");//in ra vd p=12 => 12:
+                }
+                if (s < 10)//nếu s<10
+                {
+                    Console.WriteLine($"0{s}");//in ra vd s=3 => 03
+                }
+                else//ngược lại s>=10
+                {
+                    Console.WriteLine($"{s}");//in ra cd s=13 => 13
+                }
+
+                //output : vd a=867399 => 23:59:59
            
-            //tính
-            s = a % 60;//vd a=3599 => s=3599 chia lấy dư cho 60 =59
-            if (a < 60)//TH1: số giây nhỏ hơn 60 
-            {
-                s = a;//vì a <60 nên b=a
-                if (s < 10)//nếu b<10(vd b=6) nên b chỉ có 1 chữ số
-                {
-
-                    //output
-                    Console.WriteLine($"Giờ được chuyển đổi là: 00:00:0{s}");//in ra màn hình dạng đổi từ a (vd: a=6 => b=6 => 00:00:06)
-                }
-                else//ngược lại (vd b=11)
-                {
-
-                    //output
-                    Console.WriteLine($"Giờ được chuyển đổi là: 00:00:{s}");//in ra màn hình dạn đổi từ a (vd: a=11 =>b=11 => 00:00:11)
-                }
-                
-            }
-            else if (a >= 60 && a < 3600)//TH2: 60<=a<3600 (vd: a=3599 => 00:59:59)
-            {
-               
-                p = a / 60;//vd a=3599 => p=3599/60(chia lấy phần nguyên) = 59
-                
-                if (p < 10 && s < 10)//vd p=1 VÀ s=1 => 00:01:01
-                {
-                    //output
-                    Console.WriteLine($"Giờ được chuyển đổi là: 00:0{p}:0{s}");//in tra kết quả 
-                }
-                else if (p < 10)//vd: p=1 và s=11 => 00:01:11
-                {
-                    
-                    //output
-                    Console.WriteLine($"Giờ được chuyển đổi là: 00:0{p}:{s}");//in ra kết quả 
-                }
-                else if (s < 10)//vd: p=11 và s=2 => 00:11:02
-                {
-
-                    Console.WriteLine($"Giờ được chuyển đổi là: 0:{p}:0{s}");
-                }
-                else//vd:p=11 và s=11 => 00:11:11
-                {
-
-                    //output
-                    Console.WriteLine($"Giờ được chuyển đổi là: 00:{p}:{s}");
-                }
-            }
-            else//vd: a=3601 => 01:00:01
-            {
-                s = a % 60;
-                p = (a / 60)%60;
-                h = a / 3600;
-                if (h < 10)
-                {
-                    Console.Write($"Giờ được chuyển đổi là: 0{h}:");
-                }
-                else
-                {
-                    Console.Write($"Giờ được chuyển đổi là: {h}:");
-                }
-                if (p < 10)
-                {
-                    Console.Write($"0{p}:");
-                }
-                else
-                {
-                    Console.Write($"{p}:");
-                }
-                if (s < 10)
-                {
-                    Console.WriteLine($"0{s}");
-                }
-                else
-                {
-                    Console.WriteLine($"{s}");
-                }
-            }
         }
     }
 }

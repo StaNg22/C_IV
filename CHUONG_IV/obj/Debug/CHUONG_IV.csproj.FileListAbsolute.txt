@@ -1,7 +1,0 @@
-D:\Bai_Hoc_Cua_Quyen\KTLT1\KTLT1\CHUONG_I\bin\Debug\CHUONG_I.exe.config
-D:\Bai_Hoc_Cua_Quyen\KTLT1\KTLT1\CHUONG_I\bin\Debug\CHUONG_I.exe
-D:\Bai_Hoc_Cua_Quyen\KTLT1\KTLT1\CHUONG_I\bin\Debug\CHUONG_I.pdb
-D:\Bai_Hoc_Cua_Quyen\KTLT1\KTLT1\CHUONG_I\obj\Debug\CHUONG_IV.csproj.AssemblyReference.cache
-D:\Bai_Hoc_Cua_Quyen\KTLT1\KTLT1\CHUONG_I\obj\Debug\CHUONG_IV.csproj.CoreCompileInputs.cache
-D:\Bai_Hoc_Cua_Quyen\KTLT1\KTLT1\CHUONG_I\obj\Debug\CHUONG_I.exe
-D:\Bai_Hoc_Cua_Quyen\KTLT1\KTLT1\CHUONG_I\obj\Debug\CHUONG_I.pdb

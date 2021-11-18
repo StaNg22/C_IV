@@ -22,7 +22,7 @@ namespace CHUONG_VII
             {
                 A[i] = int.Parse(Console.ReadLine());
             }
-            Console.WriteLine("Tổng cá pt chia hết cho 5:");
+            Console.WriteLine("Tổng các pt chia hết cho 5:");
             for (int i = 0; i < n; i++)
             {
                 if (A[i] % 5 == 0)

@@ -1,0 +1,8 @@
+D:\Bai_Hoc_Cua_Quyen\KTLT1\CHUONG_VII\bin\Debug\CHUONG_VII.exe.config
+D:\Bai_Hoc_Cua_Quyen\KTLT1\CHUONG_VII\bin\Debug\CHUONG_VII.exe
+D:\Bai_Hoc_Cua_Quyen\KTLT1\CHUONG_VII\bin\Debug\CHUONG_VII.pdb
+D:\Bai_Hoc_Cua_Quyen\KTLT1\CHUONG_VII\obj\Debug\CHUONG_VII.csproj.AssemblyReference.cache
+D:\Bai_Hoc_Cua_Quyen\KTLT1\CHUONG_VII\obj\Debug\CHUONG_VII.csproj.SuggestedBindingRedirects.cache
+D:\Bai_Hoc_Cua_Quyen\KTLT1\CHUONG_VII\obj\Debug\CHUONG_VII.csproj.CoreCompileInputs.cache
+D:\Bai_Hoc_Cua_Quyen\KTLT1\CHUONG_VII\obj\Debug\CHUONG_VII.exe
+D:\Bai_Hoc_Cua_Quyen\KTLT1\CHUONG_VII\obj\Debug\CHUONG_VII.pdb

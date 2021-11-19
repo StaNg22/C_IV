@@ -52,7 +52,7 @@ namespace CHUONG_IV
                 Console.Write($"{s2:00}s = ");
                    
                     st = h * 3600 + m * 60 + s1+s2;
-                    s3 = st%60;
+                    s3 = (st/60)%60;
                     m1 = st%60;
                     h1 = st / 3600;
                     Console.WriteLine($"{h1:00}:{m1:00}:{s3:00}");

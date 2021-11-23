@@ -20,7 +20,27 @@ namespace CHUONG_I
         static void Main()
         {
             Console.OutputEncoding = Encoding.UTF8;
-
+            char kt;
+            int demkt = 0;
+            Console.WriteLine("Nhập vào lý tự:");
+            kt = Convert.ToChar(Console.ReadLine());
+            demkt = kt;
+            if (demkt >= 97 && demkt <= 122)
+            {
+                Console.WriteLine("{0} là ký tự chữ thường.", kt);
+            }
+            else if (demkt >= 65 && demkt <= 90)
+            {
+                Console.WriteLine("{0} là ký tự chữ hoa.", kt);
+            }
+            else if (demkt >= 48 && demkt <= 57)
+            {
+                Console.WriteLine("{0} là ký tự chữ số.", kt);
+            }
+            else
+            {
+                Console.WriteLine("{0} là ký tự đặt biệt.", kt);
+            }
         }
     }
 }

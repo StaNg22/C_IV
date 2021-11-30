@@ -21,40 +21,56 @@ namespace CHUONG_V
         static void Main(string[] args)
         {
             Console.OutputEncoding = Encoding.UTF8;
-            
+
             //Khai Báo Biến
             int n = 0;
             int A = 0;
             int B = 1;
             int E = 1;
-            int D = 1; 
+            int D = 1;
             float C = 0;
             string chon;
 
             //input
             Console.WriteLine("Nhập vào số nguyên n:");
-            n =Convert.ToInt32(Console.ReadLine());
-            
+            n = Convert.ToInt32(Console.ReadLine());
+
             Console.WriteLine("Bạn chọn cái gì(A, B, C, D):");
             chon = Console.ReadLine();
             int kq;
             //tính
+
+            if (n == 0)
+            {
+                B = 0;
+                D = 0;
+            }
             for (int i = 1; i <= n; i++)
             {
                 if (i % 2 != 0)
                 {
                     A += i;
                 }
-                E *= i;
+
                 D *= (2 * i);
+                E *= i;
+                
             }
             for (int i = 1; i < n; i++)
             {
                 C += 1f / i;
             }
-            for (int i = 1; 3*i <= n; i++)
+            for (int i = 1; 3 * i <= n; i++)
             {
-                kq=(n==0)?B=n:B *= i*3;
+                if (n == 0)
+                {
+                    B = 0;
+                }
+                else
+                {
+                    B *= i * 3;
+                }
+                
             }
             switch (chon)
             {
@@ -65,10 +81,10 @@ namespace CHUONG_V
                     Console.WriteLine($"Tích các bội của 3 nhỏ hơn bằng {n} là: {B}");
                     break;
                 case "C":
-                    Console.WriteLine($" 1 +. . . + 1/{n-1} = {C}");
+                    Console.WriteLine($" 1 +. . . + 1/{n - 1} = {C}");
                     break;
                 case "D":
-                    Console.WriteLine($"2 * … * {2*n} = {D}");
+                    Console.WriteLine($"2 * … * {2 * n} = {D}");
                     break;
                 case "E":
                     Console.WriteLine($"{n}! = {E}");

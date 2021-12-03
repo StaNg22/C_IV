@@ -26,26 +26,20 @@ namespace CHUONG_V
             //input
             Console.WriteLine("Nhập vào n:");
             n = Convert.ToInt32(Console.ReadLine());
-            if (n < 0)
-            {
-                Console.WriteLine("Vui lòng nhập lại!!!");
-            }
-            else
-            {
-                if (n <= 2)
+            if (n < 2)
                 {
-                    Fn = n;
-                    Console.WriteLine($"Giá trị F{n} = {Fn}");
+                    Fn = 1;
+                    Console.WriteLine($"Số thứ hạng {n} của dãy Fibonaci là F{n-1} = {Fn}");
                 }
                 else
                 {
-                    for (int i = 2; i <= n; i++)
+                    for (int i = 2; i < n; i++)
                     {
                         Fn = F0 + F1;
                         F0 = F1;
                         F1 = Fn;
                     }
-                    Console.WriteLine($"Giá trị F{n} = {Fn}");
+                     Console.WriteLine($"Số thứ hạng {n} của dãy Fibonaci là F{n-1} = {Fn}");
                 }
             }
         }

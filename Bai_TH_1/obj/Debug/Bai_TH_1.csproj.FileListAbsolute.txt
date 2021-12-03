@@ -1,7 +1,0 @@
-D:\Bai_Hoc_Cua_Quyen\Bai_TH_1\bin\Debug\Bai_TH_1.exe.config
-D:\Bai_Hoc_Cua_Quyen\Bai_TH_1\bin\Debug\Bai_TH_1.exe
-D:\Bai_Hoc_Cua_Quyen\Bai_TH_1\bin\Debug\Bai_TH_1.pdb
-D:\Bai_Hoc_Cua_Quyen\Bai_TH_1\obj\Debug\Bai_TH_1.csproj.AssemblyReference.cache
-D:\Bai_Hoc_Cua_Quyen\Bai_TH_1\obj\Debug\Bai_TH_1.csproj.CoreCompileInputs.cache
-D:\Bai_Hoc_Cua_Quyen\Bai_TH_1\obj\Debug\Bai_TH_1.exe
-D:\Bai_Hoc_Cua_Quyen\Bai_TH_1\obj\Debug\Bai_TH_1.pdb

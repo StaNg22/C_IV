@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{081C9BAD-9294-40A3-A953-052B2D535D43}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>CHUONG_V</RootNamespace>
+    <AssemblyName>CHUONG_V</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Bai_01_CHUONG_V.cs" />
+    <None Include="Bai_02_CHUONG_V.cs" />
+    <None Include="Bai_03_CHUONG_V_c1.cs" />
+    <None Include="Bai_03_CHUONG_V_c2.cs" />
+    <None Include="Bai_04_CHUONG_V.cs" />
+    <None Include="Bai_05_CHUONG_V.cs" />
+    <Compile Include="Bai_06_CHUONG_V.cs" />
+    <None Include="Bai_07_CHUONG_V.cs" />
+    <None Include="Bai_08_CHUONG_V.cs" />
+    <None Include="Bai_09_CHUONG_V.cs" />
+    <None Include="Bai_11_CHUONG_V.cs" />
+    <None Include="Bai_12_CHUONG_V.cs" />
+    <None Include="Bai_10_CHUONG_V.cs" />
+    <Compile Include="Bai_13_CHUONG_V.cs" />
+    <Compile Include="Bai_14_CHUONG_V.cs" />
+    <Compile Include="Bai_15_CHUONG_V.cs" />
+    <Compile Include="Bai_16_CHUONG_V.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

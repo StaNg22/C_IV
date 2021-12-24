@@ -136,11 +136,15 @@ namespace CHUONG_VII
             Console.Write("- Vị trí số nguyên tố đầu tiên trong mảng là: ");
             for (int i = 0; i < arr.Length; i++)
             {
-                bool k = KiemTraSoNguyenTo(i);
+                bool k = KiemTraSoNguyenTo(arr[i]);
                 if (k == true)
                 {
                     Console.WriteLine($"arrA[{i}]");
                     break;
+                }
+                else
+                {
+                    continue;
                 }
             }
         }
@@ -207,7 +211,7 @@ namespace CHUONG_VII
                 TrungBinh += (double)i;
                 dem++;
             }
-            return TrungBinh/=(double)dem;
+            return Math.Round(TrungBinh/=(double)dem,2);
         }
         static void XuatSoNguyenTo(int[] arr)
         {
